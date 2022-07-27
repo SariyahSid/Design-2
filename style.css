@@ -205,3 +205,13 @@
           z-index: -1;
         background:white;
       }
+      @media only screen and (max-width: 770px) {
+        .center {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+          
+        }
+      }
